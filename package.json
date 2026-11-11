@@ -1,5 +1,5 @@
 {
-  "name": "tg-relay-gsheets",
+  "name": "appscript2tg",
   "version": "1.0.0",
   "private": true,
   "description": "Telegram Bot API relay on Google Apps Script (works when the dev host cannot reach api.telegram.org)",
@@ -7,7 +7,7 @@
     "test": "node --test \"test/*.test.mjs\"",
     "probe": "node scripts/probe.mjs",
     "login": "clasp login",
-    "create": "clasp create --type standalone --title tg-relay-gsheets --rootDir src",
+    "create": "clasp create --type standalone --title appscript2tg --rootDir src",
     "push": "clasp push",
     "status": "clasp status",
     "deploy": "clasp deploy --description relay",
