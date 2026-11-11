@@ -1,0 +1,14 @@
+# deps
+node_modules/
+
+# clasp state: contains the script id and your Google credentials
+.clasp.json
+.clasprc.json
+.cached_*
+
+# secrets / local overrides
+.env
+*.local
+
+# logs
+*.log

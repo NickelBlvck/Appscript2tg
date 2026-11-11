@@ -1,0 +1,23 @@
+{
+  "name": "tg-relay-gsheets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram Bot API relay on Google Apps Script (works when the dev host cannot reach api.telegram.org)",
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "probe": "node scripts/probe.mjs",
+    "login": "clasp login",
+    "create": "clasp create --type standalone --title tg-relay-gsheets --rootDir src",
+    "push": "clasp push",
+    "status": "clasp status",
+    "deploy": "clasp deploy --description relay",
+    "deployments": "clasp deployments",
+    "open": "clasp open"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@google/clasp": "^3.4.1"
+  }
+}
